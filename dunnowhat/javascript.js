@@ -1,1 +1,1 @@
-alert("Potato");
+alert("Press OK!");
