@@ -1,0 +1,87 @@
+body {
+
+}
+a {text-decoration: none;}
+a { color: inherit; } 
+p {word-wrap:break-word;} 
+h1
+{
+text-shadow: 5px 5px 5px #FFFF00;
+animation: shadow 3s;
+transform: rotateY(45deg);
+
+}
+
+.test {
+font-size: 25px;
+word-spacing: 70px;
+}
+
+.Head {
+background-color: #387C44;
+margin: 2% 2% -1% 2%;
+color: #F0FFFF;
+text-align:center;
+animation: head 3s linear;
+border-style: solid;
+border-color: #387C44;
+font-family: Calibri;
+
+}
+
+.menu{
+background-color: #387C44;
+margin: 0% 2% 0% 2%;
+color: #F0FFFF;
+text-align:center;
+animation: head 3s linear;
+font-family: Calibri;
+
+
+}
+
+#contentbox
+{
+background-color: #FF0000;
+margin: -2% 2% 0% 2%;
+color: #F0FFFF;
+text-align:left;
+animation: heay 3s linear;
+font-family: Calibri;
+border-color: #387C44;
+border-style: solid;
+border-width: 10px;
+word-wrap: normal;
+}
+
+@keyframes shadow
+{
+from {text-shadow: 5px 5px 5px #FFFFFF;}
+to {text-shadow: 5px 5px 5px #FFFF00;}
+}
+@-webkit-keyframes shadow /* Safari and Chrome */
+{
+from {text-shadow: 5px 5px 5px #FFFFFF;}
+to {text-shadow: 5px 5px 5px #FFFF00;}
+}
+
+@keyframes head
+{
+from {background: white; border-color: white;}
+to {background: #387C44; border-color: #387C44;}
+}
+@-webkit-keyframes head /* Safari and Chrome */
+{
+from {background: white; border-color: white;}
+to {background: #387C44; border-color: #387C44;}
+}
+@keyframes heay
+{
+from {background: white; border-color: white;}
+to {background: #FF0000; border-color: #387C44;}
+@-webkit-keyframes heay /* Safari and Chrome */
+{
+from {background: white; border-color: white;}
+to {background: #FF0000; border-color: #387C44;}
+}
+

@@ -1,0 +1,137 @@
+.number_periodic {
+text-align:left;
+float: left;
+margin-top: -1px;
+font-size: 8px;
+}
+.mol {
+text-align:right;
+float: right;
+margin-top: -1px;
+font-size: 8px;
+}
+.name {
+text-align:center;
+height: 40px;
+width: 5,55%;
+margin-bottom: -15px;
+
+}
+.substance{
+text-align:center;
+border: 1px dotted transparent;
+border-spacing: 1px;
+white-space: nowrap;
+margin-bottom: -1px;
+width: 60px;
+font-size: 9px;
+}
+table {
+border: 4px outset black;
+background-color: lightgray;
+margin-left:auto;
+margin-right:auto;
+max-width:100%; 
+max-height:100%;
+float: center;
+}
+.number_periodic, .mol {
+width: 49%;
+}
+
+.alkali_metals{
+background-color: green;
+}
+.noble_gas{
+background-color: pink;
+}
+.alkaline_earth_metals{
+background-color: lightgreen;
+}
+.non_metals {
+background-color: lightblue;
+}
+.other_metals {
+background-color: red;
+}
+.transitional_metals {
+background-color: yellow;
+}
+.alkali_metals, .non_metals, .other_metals, .transitional_metals, .alkaline_earth_metals, .noble_gas {
+border: 1px solid black;
+font-family: verdana;
+}
+.alkali_metals:hover{
+background-color:#00FF00;
+}
+.non_metals:hover {
+background-color:#00BFFF;
+}
+.other_metals:hover{
+background-color: Tomato;
+}
+.transitional_metals:hover{
+background-color: LightYellow;
+}
+.alkaline_earth_metals:hover {
+background-color: #ADFF2F;
+}
+.noble_gas:hover {
+background-color: #FF69B4;
+}
+
+h1 {
+text-align: center;
+color: black;
+font-family: Lucida Handwriting;
+font-size: 50px;
+margin-top: -1px;
+margin-bottom: -1px;
+}
+body{
+background-color: white;
+}
+.gas {
+color: red;
+}
+.synthprepared {
+color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+.liquid {
+color: #5F9EA0;
+}
+.key {
+font-size: 11px;
+margin-top: -12px ;
+width: 150px;
+
+}
+#generalkey {
+float:right;
+
+}
+#generalkey1 {
+float: left;
+margin-left:auto;
+margin-right:auto;
+max-width:100%; 
+max-height:100%;
+}
+.box {
+border: 1px solid black;
+font-size: 13px;
+margin-top: -14px ;
+width: 150px;
+background-color: lightgrey;
+font-family: verdana;
+
+}
+
+
+
+

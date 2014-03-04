@@ -1,0 +1,11 @@
+@keyframes shadow
+{
+from {background-color: #FF00FF;}
+to {background-color: #FFFF00;}
+
+#Everything
+{
+animation: shadow 3s linear;
+
+
+}
